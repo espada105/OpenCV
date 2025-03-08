@@ -13,7 +13,7 @@ def draw(event,x,y,flags,param):
         cv.rectangle(img,(x,y),(x+10,y+10),(255,0,0),2)            
     cv.imshow("Drawing", img)
 
-cv. namedWindow("Drawing")
+cv.namedWindow("Drawing")
 cv.imshow("Drawing",img)
 
 cv.setMouseCallback("Drawing",draw)
